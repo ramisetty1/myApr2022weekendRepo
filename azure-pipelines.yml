@@ -1,1 +1,7 @@
 name: myapp_$(Date:yyyymmdd)
+   
+pool:
+ name: Default
+
+steps:
+  - echo"hello" 
