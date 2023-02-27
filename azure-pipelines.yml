@@ -18,7 +18,8 @@ variables:
   environmentName: 'testappjava327'
 
   # Agent VM image name
-
+pool:
+  name: Default
 
 stages:
 - stage: Build
