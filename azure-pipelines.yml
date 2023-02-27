@@ -6,16 +6,6 @@
 trigger:
 - main
 
-variables:
-
-  # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'f83b346b-2cac-4d3d-a70a-6892781aef72'
-
-  # Web app name
-  webAppName: 'testappjava327'
-
-  # Environment name
-  environmentName: 'testappjava327'
 
 stages:
 - stage: Build
