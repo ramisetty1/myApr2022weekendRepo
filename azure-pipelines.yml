@@ -4,4 +4,5 @@ pool:
  name: Default
 
 steps:
-  - echo hello
+  script:
+    echo "siva"
