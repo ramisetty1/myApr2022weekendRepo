@@ -3,9 +3,8 @@ name: myapp_$(Date:yyyymmdd)
 pool:
  name: Default
 
-steps:
-- task: SSH@0
-  inputs:
-    runOptions: 'commands'
-    commands: 'mkdir siva'
-    readyTimeout: '20000'
+jobs:
+  - job: agent-job
+    displayName: build-job
+    steps:
+      - script: echo hello siva!
